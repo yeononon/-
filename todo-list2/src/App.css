@@ -1,12 +1,13 @@
 .App {
   text-align: center;
+  background-color: rgba(216, 214, 214, 0.941);
 }
 
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f9;
+
   color: #333;
 }
 
@@ -26,7 +27,12 @@ body {
 }
 
 .todo-list button {
-  padding: 10px;
+  padding: 8px;
+  margin-left: 20px;
+  border-radius: 4px;
+  background-color: rgb(0, 119, 255);
+  color: #f4f4f9;
+  border: none;
 }
 
 .todo-list ul {
@@ -37,7 +43,7 @@ body {
 .todo-list li {
   margin: 10px 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
